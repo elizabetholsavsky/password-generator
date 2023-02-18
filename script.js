@@ -3,17 +3,37 @@ var generateBtn = document.querySelector("#generate");
 
 // Generate password function
 function generatePassword() {
-  console.log("Console log text");
   
 // Prompt password criteria; length 8-128
 // Character types: lowercase, uppercase, numbers, special chars
+
+function randomLower() {
+  return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
+}
+
+function randomUpper() {
+  return String.fromCharCode(Math.floor(Math.random() * 26) + 65);
+}
+
+function randomNumber() {
+  return String.fromCharCode(Math.floor(Math.random() * 10) + 48);
+}
+
+function randomSymbol() {
+  const symbols = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+  return symbols[Math.floor(Math.random() * symbols.length)];
+}
+
+console.log(randomSymbol());
+
+//Create random function
 
 // Validate input
 
 // Generate and display password
 
 // Display generated password
-  return "Generated password text"
+  return ""
 }
 // Write password to the #password input
 function writePassword() {
