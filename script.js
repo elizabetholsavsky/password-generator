@@ -5,15 +5,15 @@ function generatePassword() {
   
   if (lengthResponse == 0 || isNaN(lengthResponse)) {
     alert ("Please enter a number 8-128.");
-    return;
+    generatePassword ()
   
   } else if (lengthResponse < 8) {
     alert ("Length must be more than 7 characters (but less than 129 characters).");
-    return;
+    generatePassword ()
   
   } else if (lengthResponse > 128) {
     alert ("Length must be less than 129 characters (but more than 7 characters).");
-    return;
+    generatePassword ()
   
   } else if (lengthResponse > 7 && lengthResponse <129) {
     alert ("As you wish👑! Your password will have " + lengthResponse + " characters.")
@@ -38,8 +38,7 @@ function generatePassword() {
   }
   
   let function_set = []
-
-
+  
   // CHARACTER prompts
   var lowerResponse = confirm('Click "OK" to include lowercase letters.')
   if (lowerResponse === true) {
