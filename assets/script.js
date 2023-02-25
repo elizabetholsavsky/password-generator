@@ -5,15 +5,15 @@ function generatePassword() {
   
   if (lengthResponse == 0 || isNaN(lengthResponse)) {
     alert ("Please enter a number 8-128.");
-    generatePassword ()
+    return "Try again"
   
   } else if (lengthResponse < 8) {
     alert ("Length must be more than 7 characters (but less than 129 characters).");
-    generatePassword ()
+    return "Try again"
   
   } else if (lengthResponse > 128) {
     alert ("Length must be less than 129 characters (but more than 7 characters).");
-    generatePassword ()
+    return "Try again"
   
   } else if (lengthResponse > 7 && lengthResponse <129) {
     alert ("As you wish👑! Your password will have " + lengthResponse + " characters.")
