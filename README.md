@@ -8,10 +8,6 @@ https://elizabetholsavsky.github.io/password-generator/
 
 ![_C__Users_jesse_bootcamp_password-generator_index html](https://user-images.githubusercontent.com/116515976/220211361-555f9fb8-fd63-455e-b95c-17697c1bfc66.png)
 
-## Installation
-
-N/A
-
 ## Usage
 
 The user is prompted to choose a password length 8-128 characters in length. The user is directed to try again if the length chosen is below 8 characters or above 128 characters. Once an appropriate length is chosen, the user will be asked to confirm which characters should be included. Character options include uppercase letters, lowercase letters, numbers, and special characters. The user will be prompted to try again if no character types are chosen. The new random password will be generated on the page after the last confirmation.
