@@ -2,7 +2,7 @@
 
 ## Description
 
-This password generator creates a random password 8-128 characters in length. Users can choose the length of the password as well as which characters to include through a series of prompts and confirmations. Character options include uppercase letters, lowercase letters, numbers, and special characters.
+This webpage was created as part of a UT Full Stack Flex Coding Bootcamp challenge. I modified starter code to create a simple password generator. This password generator creates a random password 8-128 characters in length. Users can choose the length of the password as well as which characters to include through a series of prompts and confirmations. Character options include uppercase letters, lowercase letters, numbers, and special characters.
 
 https://elizabetholsavsky.github.io/password-generator/
 
