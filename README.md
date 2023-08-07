@@ -26,7 +26,6 @@ https://github.com/coding-boot-camp/friendly-parakeet
 [MIT License](https://opensource.org/licenses/MIT)
 
 ## Contact
-Contact:
 * Email elizabetholsavsky@gmail.com
 * LinkedIn [https://www.linkedin.com/in/elizabetholsavsky/](https://www.linkedin.com/in/elizabetholsavsky/)
 * Portfolio [https://elizabetholsavsky.com/](https://elizabetholsavsky.com/)
