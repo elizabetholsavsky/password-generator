@@ -1,5 +1,9 @@
+<div align="center">
+  
 # Password Generator
 https://elizabetholsavsky.github.io/password-generator/
+
+</div>
 
 ## Description
 
