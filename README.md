@@ -3,6 +3,8 @@
 # Password Generator
 https://elizabetholsavsky.github.io/password-generator/
 
+  ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat)
+
 </div>
 
 ## Description
