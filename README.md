@@ -3,6 +3,7 @@
 # Password Generator
 https://elizabetholsavsky.github.io/password-generator/
 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat)
 
 </div>
